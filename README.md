@@ -7,7 +7,7 @@ When the agent requests approval (e.g. a sandbox escalation), the approval dialo
 ## Install
 
 ```sh
-npx -y @deepseek-ai/dsh plugin --profile web add dsh-translator
+npx -y @deepseek-ai/dsh plugin --profile web add https://github.com/xiyuepcl/dsh-translator/releases/download/v0.1.0/dsh-translator-0.1.0.tgz
 ```
 
 Then restart the web UI / EAC. No configuration needed — it uses your configured DeepSeek provider/credential (a few tokens per approval, ~1s latency).
@@ -22,7 +22,7 @@ Then restart the web UI / EAC. No configuration needed — it uses your configur
 ## Uninstall
 
 ```sh
-npx -y @deepseek-ai/dsh plugin --profile web remove dsh-translator
+npx -y @deepseek-ai/dsh plugin --profile web remove dsh-translator (then delete the bundles entry if it lingers)
 ```
 
 ## License
