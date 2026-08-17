@@ -1,0 +1,4 @@
+# dsh bundle layer: mount the approval translation plugin.
+- insert:
+    - id: dsh-translator
+      name: 'dsh-translator'
