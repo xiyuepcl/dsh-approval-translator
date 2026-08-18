@@ -9,7 +9,7 @@ Agent 请求审批（如沙箱权限升级）时，审批弹窗的说明文字�
 ## 安装 Install
 
 ```sh
-npx -y @deepseek-ai/dsh plugin --profile web-desktop add https://github.com/xiyuepcl/DSH审批汉化/releases/download/v0.1.1/dsh-translator-0.1.1.tgz
+npx -y @deepseek-ai/dsh plugin --profile web-desktop add https://github.com/xiyuepcl/dsh-approval-translator/releases/download/v0.1.1/dsh-translator-0.1.1.tgz
 ```
 
 （桌面客户端 EAC 4.x 用 `web-desktop` profile；CLI 网页版用 `web`。）装完重启 Web 服务/EAC 即可。无需配置——使用你已配置的 DeepSeek provider/凭据（每次审批约 1 秒 + 少量 token）。
