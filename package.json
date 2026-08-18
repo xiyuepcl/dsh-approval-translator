@@ -1,7 +1,7 @@
 {
   "name": "dsh-translator",
-  "version": "0.1.0",
-  "description": "DeepSeek-powered approval translation for DeepSeek Harness (dsh): approval dialogs show their reason natively in Chinese",
+  "version": "0.1.1",
+  "description": "DSH审批汉化 — DeepSeek 驱动的 dsh 审批弹窗自动汉化插件（approval dialog auto-translation for DeepSeek Harness）",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -21,8 +21,8 @@
     "deepseek-harness",
     "translation",
     "approval",
-    "translate",
-    "i18n"
+    "hanhua",
+    "汉化"
   ],
   "dsh": {
     "bundle": {
