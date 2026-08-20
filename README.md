@@ -1,4 +1,4 @@
-﻿# DSH瀹℃壒姹夊寲 路 dsh-translator
+# DSH瀹℃壒姹夊寲 路 dsh-translator
 
 **DSH瀹℃壒姹夊寲** 鈥?DeepSeek 椹卞姩鐨?[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh) 瀹℃壒寮圭獥鑷姩姹夊寲鎻掍欢銆?
 Agent 璇锋眰瀹℃壒锛堝娌欑鏉冮檺鍗囩骇锛夋椂锛屽鎵瑰脊绐楃殑璇存槑鏂囧瓧浼氬湪**鍒拌揪娴忚鍣ㄤ箣鍓?*琚炕璇戞垚绠€浣撲腑鏂団€斺€斿脊绐楀師鐢熸覆鏌撲腑鏂囷紝React 閲嶆覆鏌撲篃鏃犳硶杩樺師銆傚懡浠よ涓轰繚鎸佽嫳鏂囷紙瀹冩槸鍛戒护锛屼笉鏄鏄庯級銆?
@@ -7,7 +7,7 @@ Agent 璇锋眰瀹℃壒锛堝娌欑鏉冮檺鍗囩骇锛夋椂锛屽�
 ## 瀹夎 Install
 
 ```sh
-npx -y @deepseek-ai/dsh plugin --profile web-desktop add https://github.com/xiyuepcl/dsh-approval-translator/releases/download/v0.1.1/dsh-translator-0.1.1.tgz
+npx -y @deepseek-ai/dsh plugin --profile web-desktop add https://github.com/xiyuepcl/dsh-approval-translator/releases/download/v0.1.3/dsh-translator-0.1.3.tgz
 ```
 
 锛堟闈㈠鎴风 EAC 4.x 鐢?`web-desktop` profile锛汣LI 缃戦〉鐗堢敤 `web`銆傦級瑁呭畬閲嶅惎 Web 鏈嶅姟/EAC 鍗冲彲銆傛棤闇€閰嶇疆鈥斺€斾娇鐢ㄤ綘宸查厤缃殑 DeepSeek provider/鍑嵁锛堟瘡娆″鎵圭害 1 绉?+ 灏戦噺 token锛夈€?
